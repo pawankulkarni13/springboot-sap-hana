@@ -1,0 +1,5 @@
+com\stark\springbootrest\repository\UserRepository.class
+com\stark\springbootrest\controller\RestController.class
+com\stark\springbootrest\domain\User.class
+com\stark\springbootrest\SpringbootRestApplication.class
+com\stark\springbootrest\config\DBConfig.class
