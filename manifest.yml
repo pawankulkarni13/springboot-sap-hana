@@ -1,0 +1,10 @@
+applications:
+  - name: springboot-pawan-demo
+    buildpacks:
+      - sap_java_buildpack
+    memory: 1024M
+    instances:
+    random-route: true
+    path: ./target/springboot-sap-hana-0.0.1-SNAPSHOT.jar
+    services:
+      - hanadbtest
